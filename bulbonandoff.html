@@ -1,0 +1,57 @@
+<!-- <html>
+    <head>
+        <title>Bulb On and Off</title>
+    </head>
+    <body>
+        <img id="Image" onclick="turnONOff()" alt="Bulb" width="200" src="D:/JOEL MCA/WP/html/offbulb.jpg"/>
+        <script>
+            function turnONOff()
+                {
+                    var img=document.getElementById("Image");
+                    if(img.src.includes("D:/JOEL MCA/WP/html/offbulb.jpg"))
+                {
+                    img.src="D:/JOEL MCA/WP/html/onbulb.jpg";
+                }
+                else 
+                {
+                    img.src="D:/JOEL MCA/WP/html/offbulb.jpg";
+                }
+
+            }
+
+            
+        </script>
+        
+        
+        
+        <p>Click on the bulb to turn it ON and OFF</p>
+    </body>
+</html> -->
+
+
+
+
+
+<html>
+    <head>
+        <title>Bulb On and Off</title>
+    </head>
+    <body>
+       
+        <img id="Image" onclick="turnONOff()" alt="Bulb" width="200" src="offbulb.jpg"/>
+        
+        <script>
+            function turnONOff() {
+                var img = document.getElementById("Image");
+                
+                if (img.src.includes("offbulb.jpg")) {
+                    img.src = "onbulb.jpg"; 
+                } else {
+                    img.src = "offbulb.jpg"; 
+                }
+            }
+        </script>
+        
+        <p>Click on the bulb to turn it ON and OFF</p>
+    </body>
+</html>
